@@ -49,18 +49,7 @@ export default function HomeLayout() {
 						<img src={logoLight} alt="Logo" className="w-20" />
 					</Link>
 					<div className="flex-1" />
-					<Link
-						to="https://github.com/akazwz/smail"
-						target="_blank"
-						className={cn(
-							buttonVariants({
-								size: "icon",
-								variant: "ghost",
-							}),
-						)}
-					>
-						<GitHubIcon className="size-6" />
-					</Link>
+			-.- !!
 				</div>
 			</header>
 			<Outlet />
